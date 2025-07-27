@@ -1,0 +1,2 @@
+source /home/zen_vega/mcu_projects/learn_esp/build/bootloader/gdbinit/symbols
+source /home/zen_vega/mcu_projects/learn_esp/build/bootloader/gdbinit/connect

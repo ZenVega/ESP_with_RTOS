@@ -1,0 +1,15 @@
+Command: make -j 18 all
+/home/zen_vega/mcu_projects/learn_esp/main/main_rtos_tasks.c: In function 'task_1':
+/home/zen_vega/mcu_projects/learn_esp/main/main_rtos_tasks.c:19:25: error: 'portTICK_RATE_MS' undeclared (first use in this function); did you mean 'portTICK_PERIOD_MS'?
+   19 |         vTaskDelay(1000/portTICK_RATE_MS);
+      |                         ^~~~~~~~~~~~~~~~
+      |                         portTICK_PERIOD_MS
+/home/zen_vega/mcu_projects/learn_esp/main/main_rtos_tasks.c:19:25: note: each undeclared identifier is reported only once for each function it appears in
+/home/zen_vega/mcu_projects/learn_esp/main/main_rtos_tasks.c: In function 'app_main':
+/home/zen_vega/mcu_projects/learn_esp/main/main_rtos_tasks.c:25:9: error: implicit declaration of function 'vTaskCreate'; did you mean 'xTaskCreate'? [-Wimplicit-function-declaration]
+   25 |         vTaskCreate( task_1, "task1", 4096, NULL, 10, &task_1_handle);
+      |         ^~~~~~~~~~~
+      |         xTaskCreate
+make[2]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:79: esp-idf/main/CMakeFiles/__idf_main.dir/main_rtos_tasks.c.obj] Error 1
+make[1]: *** [CMakeFiles/Makefile2:4661: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make: *** [Makefile:136: all] Error 2
