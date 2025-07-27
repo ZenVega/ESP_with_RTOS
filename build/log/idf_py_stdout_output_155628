@@ -1,0 +1,139 @@
+Command: make -j 18 flash
+make[1]: Entering directory '/home/zen_vega/mcu_projects/learn_esp/build'
+[  0%] Built target sections.ld.in
+[  0%] Built target _project_elf_src
+[  0%] Built target memory.ld
+[  0%] Built target partition_table_bin
+[  0%] Built target custom_bundle
+[  0%] Performing build step for 'bootloader'
+[  1%] Built target __idf_cxx
+[  2%] Built target __idf_pthread
+[  1%] Built target _project_elf_src
+[  9%] Built target __idf_log
+[  6%] Built target __idf_newlib
+[ 17%] Built target __idf_esp_rom
+[  9%] Built target __idf_freertos
+[ 18%] Built target __idf_esp_common
+[ 17%] Built target __idf_esp_hw_support
+[ 27%] Built target __idf_esp_hw_support
+[ 18%] Built target __idf_esp_security
+[ 28%] Built target __idf_esp_system
+[ 23%] Built target __idf_soc
+[ 36%] Built target __idf_efuse
+[ 24%] Built target __idf_heap
+[ 55%] Built target __idf_bootloader_support
+[ 27%] Built target __idf_log
+[ 57%] Built target __idf_esp_bootloader_format
+[ 35%] Built target __idf_hal
+[ 58%] Built target __idf_spi_flash
+[ 36%] Built target __idf_esp_rom
+[ 65%] Built target __idf_hal
+[ 36%] Built target __idf_esp_common
+[ 68%] Built target __idf_micro-ecc
+[ 43%] Built target __idf_esp_system
+[ 91%] Built target __idf_soc
+[ 46%] Built target __idf_spi_flash
+[ 94%] Built target __idf_xtensa
+[ 96%] Built target __idf_main
+[ 47%] Built target __idf_esp_mm
+[ 98%] Built target bootloader.elf
+[ 51%] Built target __idf_bootloader_support
+[100%] Built target gen_project_binary
+[ 52%] Built target __idf_efuse
+[ 53%] Built target __idf_esp_partition
+Bootloader binary size 0x6680 bytes. 0x980 bytes (8%) free.
+[ 53%] Built target __idf_app_update
+[100%] Built target bootloader_check_size
+[ 54%] Built target __idf_esp_bootloader_format
+[100%] Built target app
+[ 54%] Built target __idf_esp_app_format
+[ 54%] No install step for 'bootloader'
+[ 54%] Completed 'bootloader'
+[ 57%] Built target mbedtls
+[ 60%] Built target mbedx509
+[ 60%] Built target bootloader
+[ 77%] Built target mbedcrypto
+[ 78%] Built target p256m
+[ 78%] Built target everest
+[ 79%] Built target __idf_mbedtls
+[ 79%] Built target __idf_esp_pm
+[ 80%] Built target __idf_esp_timer
+[ 81%] Built target __idf_esp_driver_gpio
+[ 83%] Built target __idf_xtensa
+[ 83%] Built target __idf_esp_driver_pcnt
+[ 85%] Built target __idf_esp_driver_twai
+[ 85%] Built target __idf_esp_ringbuf
+[ 86%] Built target __idf_esp_driver_ledc
+[ 87%] Built target __idf_esp_driver_mcpwm
+[ 87%] Built target __idf_esp_driver_gptimer
+[ 89%] Built target __idf_sdmmc
+[ 89%] Built target __idf_esp_driver_spi
+[ 92%] Built target __idf_esp_driver_rmt
+[ 91%] Built target __idf_esp_driver_sdm
+[ 92%] Built target __idf_esp_driver_i2s
+[ 94%] Built target __idf_esp_driver_sdspi
+[ 94%] Built target __idf_esp_driver_sdio
+[ 94%] Built target __idf_esp_driver_sdmmc
+[ 94%] Built target __idf_esp_driver_uart
+[ 94%] Built target __idf_esp_driver_i2c
+[ 95%] Built target __idf_esp_driver_dac
+[ 98%] Built target __idf_driver
+[ 98%] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/main_rtos_tasks.c.obj
+[ 98%] Linking C static library libmain.a
+[ 98%] Built target __idf_main
+[ 98%] Generating esp-idf/esp_system/ld/sections.ld
+[ 98%] Built target __ldgen_output_sections.ld
+[ 98%] Linking CXX executable learn_esp.elf
+[100%] Built target learn_esp.elf
+[100%] Generating binary image from built executable
+esptool.py v4.9.0
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/zen_vega/mcu_projects/learn_esp/build/learn_esp.bin
+[100%] Built target gen_project_binary
+learn_esp.bin binary size 0x26130 bytes. Smallest app partition is 0x100000 bytes. 0xd9ed0 bytes (85%) free.
+[100%] Built target app_check_size
+[100%] Built target app
+esptool.py --chip esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size detect 0x1000 bootloader/bootloader.bin 0x10000 learn_esp.bin 0x8000 partition_table/partition-table.bin
+esptool.py v4.9.0
+Serial port /dev/ttyUSB0
+Connecting....
+Chip is ESP32-D0WDQ6 (revision v1.0)
+Features: WiFi, BT, Dual Core, 240MHz, VRef calibration in efuse, Coding Scheme None
+Crystal is 40MHz
+MAC: c8:c9:a3:c8:b1:b4
+Uploading stub...
+Running stub...
+Stub running...
+Changing baud rate to 460800
+Changed.
+Configuring flash size...
+Auto-detected Flash size: 4MB
+Flash will be erased from 0x00001000 to 0x00007fff...
+Flash will be erased from 0x00010000 to 0x00036fff...
+Flash will be erased from 0x00008000 to 0x00008fff...
+SHA digest in image updated
+Compressed 26240 bytes to 16490...
+Writing at 0x00001000... (50 %)
+Writing at 0x000075fa... (100 %)
+Wrote 26240 bytes (16490 compressed) at 0x00001000 in 0.7 seconds (effective 302.4 kbit/s)...
+Hash of data verified.
+Compressed 155952 bytes to 84955...
+Writing at 0x00010000... (16 %)
+Writing at 0x0001b0fb... (33 %)
+Writing at 0x00020da6... (50 %)
+Writing at 0x000263bd... (66 %)
+Writing at 0x0002ea11... (83 %)
+Writing at 0x00034c64... (100 %)
+Wrote 155952 bytes (84955 compressed) at 0x00010000 in 2.2 seconds (effective 559.9 kbit/s)...
+Hash of data verified.
+Compressed 3072 bytes to 103...
+Writing at 0x00008000... (100 %)
+Wrote 3072 bytes (103 compressed) at 0x00008000 in 0.0 seconds (effective 547.3 kbit/s)...
+Hash of data verified.
+
+Leaving...
+Hard resetting via RTS pin...
+[100%] Built target flash
+make[1]: Leaving directory '/home/zen_vega/mcu_projects/learn_esp/build'

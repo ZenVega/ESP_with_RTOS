@@ -1,0 +1,10 @@
+Command: make -j 18 flash
+/home/zen_vega/mcu_projects/learn_esp/main/main_rtos_tasks.c: In function 'task_1':
+/home/zen_vega/mcu_projects/learn_esp/main/main_rtos_tasks.c:23:52: error: 'i' undeclared (first use in this function)
+   23 |                 printf("[%d] hello from task 1\n", i);
+      |                                                    ^
+/home/zen_vega/mcu_projects/learn_esp/main/main_rtos_tasks.c:23:52: note: each undeclared identifier is reported only once for each function it appears in
+make[4]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:79: esp-idf/main/CMakeFiles/__idf_main.dir/main_rtos_tasks.c.obj] Error 1
+make[3]: *** [CMakeFiles/Makefile2:4661: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make[2]: *** [CMakeFiles/Makefile2:1937: CMakeFiles/flash.dir/rule] Error 2
+make[1]: *** [Makefile:286: flash] Error 2
