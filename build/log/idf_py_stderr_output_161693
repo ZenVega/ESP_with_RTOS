@@ -1,0 +1,12 @@
+Command: make -j 18 all
+CMake Error at /home/zen_vega/esp/esp-idf/tools/cmake/build.cmake:328 (message):
+  Failed to resolve component 'ledc' required by component 'main': unknown
+  name.
+Call Stack (most recent call first):
+  /home/zen_vega/esp/esp-idf/tools/cmake/build.cmake:377 (__build_resolve_and_add_req)
+  /home/zen_vega/esp/esp-idf/tools/cmake/build.cmake:685 (__build_expand_requirements)
+  /home/zen_vega/esp/esp-idf/tools/cmake/project.cmake:740 (idf_build_process)
+  CMakeLists.txt:8 (project)
+
+
+make[1]: *** [Makefile:1502: cmake_check_build_system] Error 1

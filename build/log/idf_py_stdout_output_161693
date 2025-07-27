@@ -1,0 +1,6 @@
+Command: make -j 18 all
+make[1]: Entering directory '/home/zen_vega/mcu_projects/learn_esp/build'
+-- Minimal build - ON
+-- Building ESP-IDF components for target esp32
+-- Configuring incomplete, errors occurred!
+make[1]: Leaving directory '/home/zen_vega/mcu_projects/learn_esp/build'

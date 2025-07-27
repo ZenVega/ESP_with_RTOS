@@ -175,29 +175,29 @@ __idf_main/fast:
 	cd /home/zen_vega/mcu_projects/learn_esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
 .PHONY : __idf_main/fast
 
-main_rtos_tasks.obj: main_rtos_tasks.c.obj
-.PHONY : main_rtos_tasks.obj
+main_rtos_LEDs.obj: main_rtos_LEDs.c.obj
+.PHONY : main_rtos_LEDs.obj
 
 # target to build an object file
-main_rtos_tasks.c.obj:
-	cd /home/zen_vega/mcu_projects/learn_esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main_rtos_tasks.c.obj
-.PHONY : main_rtos_tasks.c.obj
+main_rtos_LEDs.c.obj:
+	cd /home/zen_vega/mcu_projects/learn_esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main_rtos_LEDs.c.obj
+.PHONY : main_rtos_LEDs.c.obj
 
-main_rtos_tasks.i: main_rtos_tasks.c.i
-.PHONY : main_rtos_tasks.i
+main_rtos_LEDs.i: main_rtos_LEDs.c.i
+.PHONY : main_rtos_LEDs.i
 
 # target to preprocess a source file
-main_rtos_tasks.c.i:
-	cd /home/zen_vega/mcu_projects/learn_esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main_rtos_tasks.c.i
-.PHONY : main_rtos_tasks.c.i
+main_rtos_LEDs.c.i:
+	cd /home/zen_vega/mcu_projects/learn_esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main_rtos_LEDs.c.i
+.PHONY : main_rtos_LEDs.c.i
 
-main_rtos_tasks.s: main_rtos_tasks.c.s
-.PHONY : main_rtos_tasks.s
+main_rtos_LEDs.s: main_rtos_LEDs.c.s
+.PHONY : main_rtos_LEDs.s
 
 # target to generate assembly for a file
-main_rtos_tasks.c.s:
-	cd /home/zen_vega/mcu_projects/learn_esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main_rtos_tasks.c.s
-.PHONY : main_rtos_tasks.c.s
+main_rtos_LEDs.c.s:
+	cd /home/zen_vega/mcu_projects/learn_esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main_rtos_LEDs.c.s
+.PHONY : main_rtos_LEDs.c.s
 
 # Help Target
 help:
@@ -212,9 +212,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_main"
-	@echo "... main_rtos_tasks.obj"
-	@echo "... main_rtos_tasks.i"
-	@echo "... main_rtos_tasks.s"
+	@echo "... main_rtos_LEDs.obj"
+	@echo "... main_rtos_LEDs.i"
+	@echo "... main_rtos_LEDs.s"
 .PHONY : help
 
 

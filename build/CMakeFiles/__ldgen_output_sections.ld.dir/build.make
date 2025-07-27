@@ -91,23 +91,7 @@ esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/freerto
 esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/freertos/linker.lf
 esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/newlib/src/newlib.lf
 esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/newlib/src/system_libs.lf
-esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/esp_ringbuf/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/esp_driver_pcnt/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/esp_driver_gptimer/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/esp_driver_spi/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/esp_driver_mcpwm/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/esp_driver_ana_cmpr/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/esp_driver_dac/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/esp_driver_bitscrambler/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/esp_driver_rmt/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/esp_driver_sdm/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/esp_driver_i2c/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/esp_driver_uart/linker.lf
 esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/esp_driver_ledc/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/esp_driver_parlio/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/esp_driver_usb_serial_jtag/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/esp_driver_twai/linker.lf
-esp-idf/esp_system/ld/sections.ld: /home/zen_vega/esp/esp-idf/components/driver/twai/linker.lf
 esp-idf/esp_system/ld/sections.ld: esp-idf/xtensa/libxtensa.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/cxx/libcxx.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/newlib/libnewlib.a
@@ -165,46 +149,12 @@ esp-idf/esp_system/ld/sections.ld: esp-idf/freertos/libfreertos.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/newlib/libnewlib.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/pthread/libpthread.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/cxx/libcxx.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_ringbuf/libesp_ringbuf.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_spi/libesp_driver_spi.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/sdmmc/libsdmmc.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/sdmmc/libsdmmc.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_spi/libesp_driver_spi.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_sdio/libesp_driver_sdio.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_ringbuf/libesp_ringbuf.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_dac/libesp_driver_dac.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_i2s/libesp_driver_i2s.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_rmt/libesp_driver_rmt.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_sdm/libesp_driver_sdm.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_i2c/libesp_driver_i2c.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_uart/libesp_driver_uart.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_twai/libesp_driver_twai.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/driver/libdriver.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_pcnt/libesp_driver_pcnt.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_gptimer/libesp_driver_gptimer.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_mcpwm/libesp_driver_mcpwm.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_sdmmc/libesp_driver_sdmmc.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_sdspi/libesp_driver_sdspi.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_sdio/libesp_driver_sdio.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_dac/libesp_driver_dac.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_rmt/libesp_driver_rmt.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_sdm/libesp_driver_sdm.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_i2c/libesp_driver_i2c.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_uart/libesp_driver_uart.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_twai/libesp_driver_twai.a
 esp-idf/esp_system/ld/sections.ld: esp-idf/main/libmain.a
-esp-idf/esp_system/ld/sections.ld: esp-idf/driver/libdriver.a
+esp-idf/esp_system/ld/sections.ld: esp-idf/esp_driver_ledc/libesp_driver_ledc.a
 esp-idf/esp_system/ld/sections.ld: /home/zen_vega/mcu_projects/learn_esp/sdkconfig
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/zen_vega/mcu_projects/learn_esp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating esp-idf/esp_system/ld/sections.ld"
-	/home/zen_vega/.espressif/python_env/idf5.5_py3.13_env/bin/python /home/zen_vega/esp/esp-idf/tools/ldgen/ldgen.py --config /home/zen_vega/mcu_projects/learn_esp/sdkconfig --fragments-list "/home/zen_vega/esp/esp-idf/components/xtensa/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_driver_gpio/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_pm/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_mm/linker.lf;/home/zen_vega/esp/esp-idf/components/spi_flash/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_system/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_system/app.lf;/home/zen_vega/esp/esp-idf/components/esp_common/common.lf;/home/zen_vega/esp/esp-idf/components/esp_common/soc.lf;/home/zen_vega/esp/esp-idf/components/esp_rom/linker.lf;/home/zen_vega/esp/esp-idf/components/hal/linker.lf;/home/zen_vega/esp/esp-idf/components/log/linker.lf;/home/zen_vega/esp/esp-idf/components/heap/linker.lf;/home/zen_vega/esp/esp-idf/components/soc/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_hw_support/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_hw_support/dma/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_hw_support/ldo/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_hw_support/mspi_timing_tuning/linker.lf;/home/zen_vega/esp/esp-idf/components/freertos/linker_common.lf;/home/zen_vega/esp/esp-idf/components/freertos/linker.lf;/home/zen_vega/esp/esp-idf/components/newlib/src/newlib.lf;/home/zen_vega/esp/esp-idf/components/newlib/src/system_libs.lf;/home/zen_vega/esp/esp-idf/components/esp_ringbuf/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_driver_pcnt/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_driver_gptimer/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_driver_spi/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_driver_mcpwm/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_driver_ana_cmpr/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_driver_dac/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_driver_bitscrambler/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_driver_rmt/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_driver_sdm/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_driver_i2c/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_driver_uart/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_driver_ledc/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_driver_parlio/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_driver_usb_serial_jtag/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_driver_twai/linker.lf;/home/zen_vega/esp/esp-idf/components/driver/twai/linker.lf" --input /home/zen_vega/mcu_projects/learn_esp/build/esp-idf/esp_system/ld/sections.ld.in --output /home/zen_vega/mcu_projects/learn_esp/build/esp-idf/esp_system/ld/sections.ld --kconfig /home/zen_vega/esp/esp-idf/Kconfig --env-file /home/zen_vega/mcu_projects/learn_esp/build/config.env --libraries-file /home/zen_vega/mcu_projects/learn_esp/build/ldgen_libraries --objdump /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump
+	/home/zen_vega/.espressif/python_env/idf5.5_py3.13_env/bin/python /home/zen_vega/esp/esp-idf/tools/ldgen/ldgen.py --config /home/zen_vega/mcu_projects/learn_esp/sdkconfig --fragments-list "/home/zen_vega/esp/esp-idf/components/xtensa/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_driver_gpio/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_pm/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_mm/linker.lf;/home/zen_vega/esp/esp-idf/components/spi_flash/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_system/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_system/app.lf;/home/zen_vega/esp/esp-idf/components/esp_common/common.lf;/home/zen_vega/esp/esp-idf/components/esp_common/soc.lf;/home/zen_vega/esp/esp-idf/components/esp_rom/linker.lf;/home/zen_vega/esp/esp-idf/components/hal/linker.lf;/home/zen_vega/esp/esp-idf/components/log/linker.lf;/home/zen_vega/esp/esp-idf/components/heap/linker.lf;/home/zen_vega/esp/esp-idf/components/soc/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_hw_support/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_hw_support/dma/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_hw_support/ldo/linker.lf;/home/zen_vega/esp/esp-idf/components/esp_hw_support/mspi_timing_tuning/linker.lf;/home/zen_vega/esp/esp-idf/components/freertos/linker_common.lf;/home/zen_vega/esp/esp-idf/components/freertos/linker.lf;/home/zen_vega/esp/esp-idf/components/newlib/src/newlib.lf;/home/zen_vega/esp/esp-idf/components/newlib/src/system_libs.lf;/home/zen_vega/esp/esp-idf/components/esp_driver_ledc/linker.lf" --input /home/zen_vega/mcu_projects/learn_esp/build/esp-idf/esp_system/ld/sections.ld.in --output /home/zen_vega/mcu_projects/learn_esp/build/esp-idf/esp_system/ld/sections.ld --kconfig /home/zen_vega/esp/esp-idf/Kconfig --env-file /home/zen_vega/mcu_projects/learn_esp/build/config.env --libraries-file /home/zen_vega/mcu_projects/learn_esp/build/ldgen_libraries --objdump /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32-elf-objdump
 
 CMakeFiles/__ldgen_output_sections.ld.dir/codegen:
 .PHONY : CMakeFiles/__ldgen_output_sections.ld.dir/codegen

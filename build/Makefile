@@ -1111,201 +1111,6 @@ __idf_cxx/fast:
 .PHONY : __idf_cxx/fast
 
 #=============================================================================
-# Target rules for targets named __idf_esp_ringbuf
-
-# Build rule for target.
-__idf_esp_ringbuf: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_ringbuf
-.PHONY : __idf_esp_ringbuf
-
-# fast build rule for target.
-__idf_esp_ringbuf/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/build.make esp-idf/esp_ringbuf/CMakeFiles/__idf_esp_ringbuf.dir/build
-.PHONY : __idf_esp_ringbuf/fast
-
-#=============================================================================
-# Target rules for targets named __idf_esp_driver_pcnt
-
-# Build rule for target.
-__idf_esp_driver_pcnt: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_driver_pcnt
-.PHONY : __idf_esp_driver_pcnt
-
-# fast build rule for target.
-__idf_esp_driver_pcnt/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/build.make esp-idf/esp_driver_pcnt/CMakeFiles/__idf_esp_driver_pcnt.dir/build
-.PHONY : __idf_esp_driver_pcnt/fast
-
-#=============================================================================
-# Target rules for targets named __idf_esp_driver_gptimer
-
-# Build rule for target.
-__idf_esp_driver_gptimer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_driver_gptimer
-.PHONY : __idf_esp_driver_gptimer
-
-# fast build rule for target.
-__idf_esp_driver_gptimer/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_gptimer/CMakeFiles/__idf_esp_driver_gptimer.dir/build.make esp-idf/esp_driver_gptimer/CMakeFiles/__idf_esp_driver_gptimer.dir/build
-.PHONY : __idf_esp_driver_gptimer/fast
-
-#=============================================================================
-# Target rules for targets named __idf_esp_driver_spi
-
-# Build rule for target.
-__idf_esp_driver_spi: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_driver_spi
-.PHONY : __idf_esp_driver_spi
-
-# fast build rule for target.
-__idf_esp_driver_spi/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir/build.make esp-idf/esp_driver_spi/CMakeFiles/__idf_esp_driver_spi.dir/build
-.PHONY : __idf_esp_driver_spi/fast
-
-#=============================================================================
-# Target rules for targets named __idf_esp_driver_mcpwm
-
-# Build rule for target.
-__idf_esp_driver_mcpwm: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_driver_mcpwm
-.PHONY : __idf_esp_driver_mcpwm
-
-# fast build rule for target.
-__idf_esp_driver_mcpwm/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/build.make esp-idf/esp_driver_mcpwm/CMakeFiles/__idf_esp_driver_mcpwm.dir/build
-.PHONY : __idf_esp_driver_mcpwm/fast
-
-#=============================================================================
-# Target rules for targets named __idf_esp_driver_i2s
-
-# Build rule for target.
-__idf_esp_driver_i2s: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_driver_i2s
-.PHONY : __idf_esp_driver_i2s
-
-# fast build rule for target.
-__idf_esp_driver_i2s/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build.make esp-idf/esp_driver_i2s/CMakeFiles/__idf_esp_driver_i2s.dir/build
-.PHONY : __idf_esp_driver_i2s/fast
-
-#=============================================================================
-# Target rules for targets named __idf_sdmmc
-
-# Build rule for target.
-__idf_sdmmc: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_sdmmc
-.PHONY : __idf_sdmmc
-
-# fast build rule for target.
-__idf_sdmmc/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/build.make esp-idf/sdmmc/CMakeFiles/__idf_sdmmc.dir/build
-.PHONY : __idf_sdmmc/fast
-
-#=============================================================================
-# Target rules for targets named __idf_esp_driver_sdmmc
-
-# Build rule for target.
-__idf_esp_driver_sdmmc: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_driver_sdmmc
-.PHONY : __idf_esp_driver_sdmmc
-
-# fast build rule for target.
-__idf_esp_driver_sdmmc/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build.make esp-idf/esp_driver_sdmmc/CMakeFiles/__idf_esp_driver_sdmmc.dir/build
-.PHONY : __idf_esp_driver_sdmmc/fast
-
-#=============================================================================
-# Target rules for targets named __idf_esp_driver_sdspi
-
-# Build rule for target.
-__idf_esp_driver_sdspi: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_driver_sdspi
-.PHONY : __idf_esp_driver_sdspi
-
-# fast build rule for target.
-__idf_esp_driver_sdspi/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdspi/CMakeFiles/__idf_esp_driver_sdspi.dir/build.make esp-idf/esp_driver_sdspi/CMakeFiles/__idf_esp_driver_sdspi.dir/build
-.PHONY : __idf_esp_driver_sdspi/fast
-
-#=============================================================================
-# Target rules for targets named __idf_esp_driver_sdio
-
-# Build rule for target.
-__idf_esp_driver_sdio: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_driver_sdio
-.PHONY : __idf_esp_driver_sdio
-
-# fast build rule for target.
-__idf_esp_driver_sdio/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdio/CMakeFiles/__idf_esp_driver_sdio.dir/build.make esp-idf/esp_driver_sdio/CMakeFiles/__idf_esp_driver_sdio.dir/build
-.PHONY : __idf_esp_driver_sdio/fast
-
-#=============================================================================
-# Target rules for targets named __idf_esp_driver_dac
-
-# Build rule for target.
-__idf_esp_driver_dac: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_driver_dac
-.PHONY : __idf_esp_driver_dac
-
-# fast build rule for target.
-__idf_esp_driver_dac/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_dac/CMakeFiles/__idf_esp_driver_dac.dir/build.make esp-idf/esp_driver_dac/CMakeFiles/__idf_esp_driver_dac.dir/build
-.PHONY : __idf_esp_driver_dac/fast
-
-#=============================================================================
-# Target rules for targets named __idf_esp_driver_rmt
-
-# Build rule for target.
-__idf_esp_driver_rmt: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_driver_rmt
-.PHONY : __idf_esp_driver_rmt
-
-# fast build rule for target.
-__idf_esp_driver_rmt/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build.make esp-idf/esp_driver_rmt/CMakeFiles/__idf_esp_driver_rmt.dir/build
-.PHONY : __idf_esp_driver_rmt/fast
-
-#=============================================================================
-# Target rules for targets named __idf_esp_driver_sdm
-
-# Build rule for target.
-__idf_esp_driver_sdm: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_driver_sdm
-.PHONY : __idf_esp_driver_sdm
-
-# fast build rule for target.
-__idf_esp_driver_sdm/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/build.make esp-idf/esp_driver_sdm/CMakeFiles/__idf_esp_driver_sdm.dir/build
-.PHONY : __idf_esp_driver_sdm/fast
-
-#=============================================================================
-# Target rules for targets named __idf_esp_driver_i2c
-
-# Build rule for target.
-__idf_esp_driver_i2c: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_driver_i2c
-.PHONY : __idf_esp_driver_i2c
-
-# fast build rule for target.
-__idf_esp_driver_i2c/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/build.make esp-idf/esp_driver_i2c/CMakeFiles/__idf_esp_driver_i2c.dir/build
-.PHONY : __idf_esp_driver_i2c/fast
-
-#=============================================================================
-# Target rules for targets named __idf_esp_driver_uart
-
-# Build rule for target.
-__idf_esp_driver_uart: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_driver_uart
-.PHONY : __idf_esp_driver_uart
-
-# fast build rule for target.
-__idf_esp_driver_uart/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/build.make esp-idf/esp_driver_uart/CMakeFiles/__idf_esp_driver_uart.dir/build
-.PHONY : __idf_esp_driver_uart/fast
-
-#=============================================================================
 # Target rules for targets named __idf_esp_driver_ledc
 
 # Build rule for target.
@@ -1317,32 +1122,6 @@ __idf_esp_driver_ledc: cmake_check_build_system
 __idf_esp_driver_ledc/fast:
 	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_ledc/CMakeFiles/__idf_esp_driver_ledc.dir/build.make esp-idf/esp_driver_ledc/CMakeFiles/__idf_esp_driver_ledc.dir/build
 .PHONY : __idf_esp_driver_ledc/fast
-
-#=============================================================================
-# Target rules for targets named __idf_esp_driver_twai
-
-# Build rule for target.
-__idf_esp_driver_twai: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_esp_driver_twai
-.PHONY : __idf_esp_driver_twai
-
-# fast build rule for target.
-__idf_esp_driver_twai/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/esp_driver_twai/CMakeFiles/__idf_esp_driver_twai.dir/build.make esp-idf/esp_driver_twai/CMakeFiles/__idf_esp_driver_twai.dir/build
-.PHONY : __idf_esp_driver_twai/fast
-
-#=============================================================================
-# Target rules for targets named __idf_driver
-
-# Build rule for target.
-__idf_driver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_driver
-.PHONY : __idf_driver
-
-# fast build rule for target.
-__idf_driver/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/driver/CMakeFiles/__idf_driver.dir/build.make esp-idf/driver/CMakeFiles/__idf_driver.dir/build
-.PHONY : __idf_driver/fast
 
 #=============================================================================
 # Target rules for targets named __idf_main
@@ -1437,32 +1216,16 @@ help:
 	@echo "... __idf_app_update"
 	@echo "... __idf_bootloader_support"
 	@echo "... __idf_cxx"
-	@echo "... __idf_driver"
 	@echo "... __idf_efuse"
 	@echo "... __idf_esp_app_format"
 	@echo "... __idf_esp_bootloader_format"
 	@echo "... __idf_esp_common"
-	@echo "... __idf_esp_driver_dac"
 	@echo "... __idf_esp_driver_gpio"
-	@echo "... __idf_esp_driver_gptimer"
-	@echo "... __idf_esp_driver_i2c"
-	@echo "... __idf_esp_driver_i2s"
 	@echo "... __idf_esp_driver_ledc"
-	@echo "... __idf_esp_driver_mcpwm"
-	@echo "... __idf_esp_driver_pcnt"
-	@echo "... __idf_esp_driver_rmt"
-	@echo "... __idf_esp_driver_sdio"
-	@echo "... __idf_esp_driver_sdm"
-	@echo "... __idf_esp_driver_sdmmc"
-	@echo "... __idf_esp_driver_sdspi"
-	@echo "... __idf_esp_driver_spi"
-	@echo "... __idf_esp_driver_twai"
-	@echo "... __idf_esp_driver_uart"
 	@echo "... __idf_esp_hw_support"
 	@echo "... __idf_esp_mm"
 	@echo "... __idf_esp_partition"
 	@echo "... __idf_esp_pm"
-	@echo "... __idf_esp_ringbuf"
 	@echo "... __idf_esp_rom"
 	@echo "... __idf_esp_security"
 	@echo "... __idf_esp_system"
@@ -1475,7 +1238,6 @@ help:
 	@echo "... __idf_mbedtls"
 	@echo "... __idf_newlib"
 	@echo "... __idf_pthread"
-	@echo "... __idf_sdmmc"
 	@echo "... __idf_soc"
 	@echo "... __idf_spi_flash"
 	@echo "... __idf_xtensa"

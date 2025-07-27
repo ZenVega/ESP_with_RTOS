@@ -1,0 +1,12 @@
+Command: make -j 18 flash
+/home/zen_vega/mcu_projects/learn_esp/main/main_rtos_LEDs.c: In function 'app_main':
+/home/zen_vega/mcu_projects/learn_esp/main/main_rtos_LEDs.c:53:25: error: implicit declaration of function 'vTaskDelay' [-Wimplicit-function-declaration]
+   53 |                         vTaskDelay(pdMS_TO_TICKS(10));
+      |                         ^~~~~~~~~~
+/home/zen_vega/mcu_projects/learn_esp/main/main_rtos_LEDs.c:53:36: error: implicit declaration of function 'pdMS_TO_TICKS' [-Wimplicit-function-declaration]
+   53 |                         vTaskDelay(pdMS_TO_TICKS(10));
+      |                                    ^~~~~~~~~~~~~
+make[4]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:79: esp-idf/main/CMakeFiles/__idf_main.dir/main_rtos_LEDs.c.obj] Error 1
+make[3]: *** [CMakeFiles/Makefile2:3519: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make[2]: *** [CMakeFiles/Makefile2:1431: CMakeFiles/flash.dir/rule] Error 2
+make[1]: *** [Makefile:286: flash] Error 2
