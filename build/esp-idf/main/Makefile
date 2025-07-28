@@ -175,29 +175,29 @@ __idf_main/fast:
 	cd /home/zen_vega/mcu_projects/learn_esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/build
 .PHONY : __idf_main/fast
 
-main_rtos_LEDs.obj: main_rtos_LEDs.c.obj
-.PHONY : main_rtos_LEDs.obj
+main_GPIO_inter.obj: main_GPIO_inter.c.obj
+.PHONY : main_GPIO_inter.obj
 
 # target to build an object file
-main_rtos_LEDs.c.obj:
-	cd /home/zen_vega/mcu_projects/learn_esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main_rtos_LEDs.c.obj
-.PHONY : main_rtos_LEDs.c.obj
+main_GPIO_inter.c.obj:
+	cd /home/zen_vega/mcu_projects/learn_esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main_GPIO_inter.c.obj
+.PHONY : main_GPIO_inter.c.obj
 
-main_rtos_LEDs.i: main_rtos_LEDs.c.i
-.PHONY : main_rtos_LEDs.i
+main_GPIO_inter.i: main_GPIO_inter.c.i
+.PHONY : main_GPIO_inter.i
 
 # target to preprocess a source file
-main_rtos_LEDs.c.i:
-	cd /home/zen_vega/mcu_projects/learn_esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main_rtos_LEDs.c.i
-.PHONY : main_rtos_LEDs.c.i
+main_GPIO_inter.c.i:
+	cd /home/zen_vega/mcu_projects/learn_esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main_GPIO_inter.c.i
+.PHONY : main_GPIO_inter.c.i
 
-main_rtos_LEDs.s: main_rtos_LEDs.c.s
-.PHONY : main_rtos_LEDs.s
+main_GPIO_inter.s: main_GPIO_inter.c.s
+.PHONY : main_GPIO_inter.s
 
 # target to generate assembly for a file
-main_rtos_LEDs.c.s:
-	cd /home/zen_vega/mcu_projects/learn_esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main_rtos_LEDs.c.s
-.PHONY : main_rtos_LEDs.c.s
+main_GPIO_inter.c.s:
+	cd /home/zen_vega/mcu_projects/learn_esp/build && $(MAKE) $(MAKESILENT) -f esp-idf/main/CMakeFiles/__idf_main.dir/build.make esp-idf/main/CMakeFiles/__idf_main.dir/main_GPIO_inter.c.s
+.PHONY : main_GPIO_inter.c.s
 
 # Help Target
 help:
@@ -212,9 +212,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... __idf_main"
-	@echo "... main_rtos_LEDs.obj"
-	@echo "... main_rtos_LEDs.i"
-	@echo "... main_rtos_LEDs.s"
+	@echo "... main_GPIO_inter.obj"
+	@echo "... main_GPIO_inter.i"
+	@echo "... main_GPIO_inter.s"
 .PHONY : help
 
 

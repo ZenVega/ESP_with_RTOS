@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/zen_vega/mcu_projects/learn_esp/main/main_rtos_LEDs.c" "esp-idf/main/CMakeFiles/__idf_main.dir/main_rtos_LEDs.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/main_rtos_LEDs.c.obj.d"
+  "/home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c" "esp-idf/main/CMakeFiles/__idf_main.dir/main_GPIO_inter.c.obj" "gcc" "esp-idf/main/CMakeFiles/__idf_main.dir/main_GPIO_inter.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "learn_esp",
-    "project_version":    "5292bee-dirty",
+    "project_version":    "81c37b8-dirty",
     "project_path":       "/home/zen_vega/mcu_projects/learn_esp",
     "idf_path":           "/home/zen_vega/esp/esp-idf",
     "build_dir":          "/home/zen_vega/mcu_projects/learn_esp/build",
@@ -385,7 +385,7 @@
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "/home/zen_vega/mcu_projects/learn_esp/build/esp-idf/main/libmain.a",
-            "sources": [ "/home/zen_vega/mcu_projects/learn_esp/main/main_rtos_LEDs.c" ],
+            "sources": [ "/home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c" ],
             "include_dirs": [ "." ]
         },
         "mbedtls": {

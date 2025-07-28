@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/__idf_main.dir/main_rtos_LEDs.c.obj"
-  "CMakeFiles/__idf_main.dir/main_rtos_LEDs.c.obj.d"
+  "CMakeFiles/__idf_main.dir/main_GPIO_inter.c.obj"
+  "CMakeFiles/__idf_main.dir/main_GPIO_inter.c.obj.d"
   "libmain.a"
   "libmain.pdb"
 )

@@ -1,0 +1,51 @@
+Command: make -j 18 flash
+/home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c: In function 'app_main':
+/home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c:37:26: error: 'CONFIG_GPIO_OUTPUT_0' undeclared (first use in this function)
+   37 | #define GPIO_OUTPUT_IO_0 CONFIG_GPIO_OUTPUT_0
+      |                          ^~~~~~~~~~~~~~~~~~~~
+/home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c:39:39: note: in expansion of macro 'GPIO_OUTPUT_IO_0'
+   39 | #define GPIO_OUTPUT_PIN_SEL ((1ULL << GPIO_OUTPUT_IO_0) | (1ULL << GPIO_OUTPUT_IO_1))
+      |                                       ^~~~~~~~~~~~~~~~
+/home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c:88:32: note: in expansion of macro 'GPIO_OUTPUT_PIN_SEL'
+   88 |         io_conf.pin_bit_mask = GPIO_OUTPUT_PIN_SEL;
+      |                                ^~~~~~~~~~~~~~~~~~~
+/home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c:37:26: note: each undeclared identifier is reported only once for each function it appears in
+   37 | #define GPIO_OUTPUT_IO_0 CONFIG_GPIO_OUTPUT_0
+      |                          ^~~~~~~~~~~~~~~~~~~~
+/home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c:39:39: note: in expansion of macro 'GPIO_OUTPUT_IO_0'
+   39 | #define GPIO_OUTPUT_PIN_SEL ((1ULL << GPIO_OUTPUT_IO_0) | (1ULL << GPIO_OUTPUT_IO_1))
+      |                                       ^~~~~~~~~~~~~~~~
+/home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c:88:32: note: in expansion of macro 'GPIO_OUTPUT_PIN_SEL'
+   88 |         io_conf.pin_bit_mask = GPIO_OUTPUT_PIN_SEL;
+      |                                ^~~~~~~~~~~~~~~~~~~
+/home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c:38:26: error: 'CONFIG_GPIO_OUTPUT_1' undeclared (first use in this function)
+   38 | #define GPIO_OUTPUT_IO_1 CONFIG_GPIO_OUTPUT_1
+      |                          ^~~~~~~~~~~~~~~~~~~~
+/home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c:39:68: note: in expansion of macro 'GPIO_OUTPUT_IO_1'
+   39 | #define GPIO_OUTPUT_PIN_SEL ((1ULL << GPIO_OUTPUT_IO_0) | (1ULL << GPIO_OUTPUT_IO_1))
+      |                                                                    ^~~~~~~~~~~~~~~~
+/home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c:88:32: note: in expansion of macro 'GPIO_OUTPUT_PIN_SEL'
+   88 |         io_conf.pin_bit_mask = GPIO_OUTPUT_PIN_SEL;
+      |                                ^~~~~~~~~~~~~~~~~~~
+/home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c:47:25: error: 'CONFIG_GPIO_INPUT_0' undeclared (first use in this function)
+   47 | #define GPIO_INPUT_IO_0 CONFIG_GPIO_INPUT_0
+      |                         ^~~~~~~~~~~~~~~~~~~
+/home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c:49:38: note: in expansion of macro 'GPIO_INPUT_IO_0'
+   49 | #define GPIO_INPUT_PIN_SEL ((1ULL << GPIO_INPUT_IO_0) | (1ULL << GPIO_INPUT_IO_1))
+      |                                      ^~~~~~~~~~~~~~~
+/home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c:99:32: note: in expansion of macro 'GPIO_INPUT_PIN_SEL'
+   99 |         io_conf.pin_bit_mask = GPIO_INPUT_PIN_SEL;
+      |                                ^~~~~~~~~~~~~~~~~~
+/home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c:48:25: error: 'CONFIG_GPIO_INPUT_1' undeclared (first use in this function)
+   48 | #define GPIO_INPUT_IO_1 CONFIG_GPIO_INPUT_1
+      |                         ^~~~~~~~~~~~~~~~~~~
+/home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c:49:66: note: in expansion of macro 'GPIO_INPUT_IO_1'
+   49 | #define GPIO_INPUT_PIN_SEL ((1ULL << GPIO_INPUT_IO_0) | (1ULL << GPIO_INPUT_IO_1))
+      |                                                                  ^~~~~~~~~~~~~~~
+/home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c:99:32: note: in expansion of macro 'GPIO_INPUT_PIN_SEL'
+   99 |         io_conf.pin_bit_mask = GPIO_INPUT_PIN_SEL;
+      |                                ^~~~~~~~~~~~~~~~~~
+make[4]: *** [esp-idf/main/CMakeFiles/__idf_main.dir/build.make:79: esp-idf/main/CMakeFiles/__idf_main.dir/main_GPIO_inter.c.obj] Error 1
+make[3]: *** [CMakeFiles/Makefile2:3519: esp-idf/main/CMakeFiles/__idf_main.dir/all] Error 2
+make[2]: *** [CMakeFiles/Makefile2:1431: CMakeFiles/flash.dir/rule] Error 2
+make[1]: *** [Makefile:286: flash] Error 2
