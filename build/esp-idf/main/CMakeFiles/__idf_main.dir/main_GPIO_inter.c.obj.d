@@ -1,6 +1,5 @@
 esp-idf/main/CMakeFiles/__idf_main.dir/main_GPIO_inter.c.obj: \
  /home/zen_vega/mcu_projects/learn_esp/main/main_GPIO_inter.c \
- /home/zen_vega/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
  /home/zen_vega/esp/esp-idf/components/newlib/platform_include/stdio.h \
  /home/zen_vega/mcu_projects/learn_esp/build/config/sdkconfig.h \
  /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/stdio.h \
@@ -32,6 +31,7 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main_GPIO_inter.c.obj: \
  /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/_stdint.h \
  /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/assert.h \
  /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/stdio.h \
+ /home/zen_vega/esp/esp-idf/components/esp_driver_gpio/include/driver/gpio.h \
  /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include/stdbool.h \
  /home/zen_vega/esp/esp-idf/components/esp_common/include/esp_err.h \
  /home/zen_vega/esp/esp-idf/components/esp_common/include/esp_compiler.h \
@@ -108,7 +108,4 @@ esp-idf/main/CMakeFiles/__idf_main.dir/main_GPIO_inter.c.obj: \
  /home/zen_vega/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/message_buffer.h \
  /home/zen_vega/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/stream_buffer.h \
  /home/zen_vega/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/event_groups.h \
- /home/zen_vega/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h \
- /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/string.h \
- /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/strings.h \
- /home/zen_vega/.espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/xtensa-esp-elf/include/sys/string.h
+ /home/zen_vega/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/timers.h

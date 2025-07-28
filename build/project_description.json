@@ -1,7 +1,7 @@
 {
     "version":            "1.2",
     "project_name":       "learn_esp",
-    "project_version":    "81c37b8-dirty",
+    "project_version":    "87d80a8-dirty",
     "project_path":       "/home/zen_vega/mcu_projects/learn_esp",
     "idf_path":           "/home/zen_vega/esp/esp-idf",
     "build_dir":          "/home/zen_vega/mcu_projects/learn_esp/build",

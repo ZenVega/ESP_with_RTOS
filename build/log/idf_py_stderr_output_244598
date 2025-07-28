@@ -1,0 +1,12 @@
+Command: make -j 18 flash
+CMake Error at run_serial_tool.cmake:67 (message):
+  
+  /home/zen_vega/.espressif/python_env/idf5.5_py3.13_env/bin/python;;/home/zen_vega/esp/esp-idf/components/esptool_py/esptool/esptool.py;--chip;esp32
+  failed.
+
+
+
+make[4]: *** [CMakeFiles/flash.dir/build.make:70: CMakeFiles/flash] Error 1
+make[3]: *** [CMakeFiles/Makefile2:1424: CMakeFiles/flash.dir/all] Error 2
+make[2]: *** [CMakeFiles/Makefile2:1431: CMakeFiles/flash.dir/rule] Error 2
+make[1]: *** [Makefile:286: flash] Error 2
